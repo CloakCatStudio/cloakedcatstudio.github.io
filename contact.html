@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contact</title>
+	<title>Contact</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<style>
+		.left-main {
+			float: left;
+			display: inline;
+			width: 50%;
+			overflow: hidden;
+		}
+		
+		.right-main {
+			float: left;
+			display: inline;
+			width: 50%;
+			overflow: hidden;
+		}
+		
+		.btn-container{
+			overflow: hidden;
+			padding: 48px 0px;
+		}
+		
+		.btn {
+			text-decoration: none;
+			background-color: #f24949;
+			padding: 2% 4%;
+		}
+		
+		.image {
+			width= 100%;
+		}
+		
+		
+	</style>
 </head>
 <body>
-
-
-
+	<header>
+		
+		<div class="center">
+			<img id="logo" src="images\cloakedCat.svg" alt="Cloaked Cat Studio">
+		</div>
+		
+	</header>
+	
+	
+	<div id="nav">
+		<div class="center nav-center">
+		
+			<a class="hoverable" href="index.html">Home</a>
+			<a class="hoverable" href="about.html">About</a>
+			<a class="hoverable" href="devlog.html">Dev Log</a>
+			<a id="active" href="contact.html">Contact</a>
+		
+		</div>
+	</div>
+	
+	<main>
+		<div class="center">
+			<div class="left-main">
+				<div class="btn-container">
+					<a class="btn" href="mailto:cloakedcatstudio@gmail.com">Email Cloaked Cat</a>
+				</div>
+			
+				<p> Or contact us at cloackedcatstudio@gmail.com</p>
+			</div>
+			
+			<div class="right-main">
+				<img class="image" src="images\mailcat.jpg" alt="Cloe with a mail bag">
+			</div>
+		</div
+	</main>
+	
+	<footer>
+	<div class="center">
+		<div>
+			<table class="ft-navbar">
+				<tr>
+					<td>
+						<a class="ft-nav" href="#">Home</a>
+						<a class="ft-nav" href="about.html">About</a>
+						<a class="ft-nav" href="devlog.html">Dev Log</a>
+						<a class="ft-nav" href="contact.html">Contact</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<script type="text/javascript">
+			var d = new Date()
+			document.write('<p class="ft-text">Copyright &copy ' + d.getFullYear() + ' Cloaked Cat Studio. All Rights Reserved</p>')
+		</script>
+		
+	</div>
+		
+	</footer>
 </body>
 </html>

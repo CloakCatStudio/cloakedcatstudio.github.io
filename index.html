@@ -6,154 +6,10 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
 	<style>
-		* {
-			margin: 0px;
-			padding: 0px;
-			
-			font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-		}
-		
-		.center {
-			width: 50%;
-			margin: 0px 25%;
-			overflow: hidden;
-		}
-		
-		.center-nav {
-			width: 50%;
-			margin: 0px 25%;
-			overflow: hidden;
-		}
-		
-		@media only screen and (max-width: 1280px) {
-			.center {
-				width: 60%;
-				margin: 0px 20%;
-				overflow: hidden;
-				
-			}
-			
-		}
-		
-		
-		@media only screen and (max-width: 992px) {
-			.center{
-				width: 70%;
-				margin: 0px 15%;
-				overflow: hidden;
-			}
-			
-		}
-		
-		
-		@media only screen and (max-width: 768px) {
-			.center {
-				width: 96%;
-				margin: 0px 2%;
-				overflow: hidden;
-			}
-			
-			.nav-center {
-				width: 100%;
-				margin: 0px 0px;
-			}
-		}
-		
-		
-		/*-------------------------HEADER SECTION-----------------------*/
-		
-		header {
-			width: 100%;
-			height: auto;
-			background-color: #252637;
-		}
-		
-		#logo {
-			width: 80%;
-			height: auto;
-			padding: 8px 0px 0px 0px;
-		}
-		
-		/*-------------------------NAV SECTION----------------------------*/
-		
-		#nav {
-			width: 100%;
-			background-color: #252637;
-			overflow: hidden;
-		}
-		
-		#nav a {
-			float: left;
-			display: inline;
-			
-			
-			text-align: center;
-			
-			width: 25%;
-			padding: 4px 0px;
-			text-decoration: none;
-		}
-		
-		.hoverable {
-			color: #ffffff;
-			background-color: #252637;
-		}
-		
-		.hoverable:hover {
-			background-color: #f2494988;
-		}
-		
-		#active {
-			color: #252637;
-			background-color: #f24949;
-			font-weight: 550;
-		}
-
-		
-		/*-----------------------MAIN SECTION-------------------------*/
-		
-		main {
-			background-color: #ffffff;
-			width: 100%;
-			display: inline;
-			overflow: hidden;
-		}
-		
-		main * {
-			color: #252637;
-		}
-		
-		.heading {
-			padding: 1% 0px;
-		}
-		
-		.main-left {
-			width: 48%;
-			height: auto;
-			float: left;
-		}
-		
-		.main-right {
-			width: 48%;
-			height: auto;
-			float: right;
-		}
-		
-		.section {
-			overflow: hidden;
-			padding: 0px 0px 8px 0px;
-		}
-		
-		main img {
-			width: 100%;
-			height: auto;
-		}
-		
-		main p {
-			padding-bottom: 24px;
-		}
-		
+	
 		
 		.mascot {
 			width: 30%;
@@ -172,7 +28,7 @@
 			display: inline;
 			float: left;
 			width: 62%;
-			padding: 10% 0px;
+			padding: 25% 0px;
 		}
 		
 		#mascot-container {
@@ -180,48 +36,6 @@
 			width: 60%;
 			margin: 20px 20%;
 		}
-		
-		/*----------------------FOOTER SECTION-------------------------*/
-		
-		footer {
-			width: 100%;
-			height: 100px;
-			background-color: #252637;
-			
-		}
-		
-		.ft-text {
-			width: 100%;
-			text-align: center;
-			color: #777889;
-			font-size: 12px;
-			
-		}
-		
-		
-		.ft-nav {
-			text-decoration: none;
-			color: #ffffff;
-			font-size: 14px;
-			padding: 0px 2%;
-		}
-		
-		.ft-nav:hover {
-			color: #f24949;
-		}
-		
-		.ft-navbar {
-			margin: 4px 0px;
-			text-align: center;
-			width: 100%;
-			border-collapse: collapse;
-		}
-		
-		
-		
-		
-
-		
 		
 		
 	</style>
@@ -241,7 +55,7 @@
 	<div id="nav">
 		<div class="center nav-center">
 		
-			<a id="active" href="#">Home</a>
+			<a id="active" href="index.html">Home</a>
 			<a class="hoverable" href="about.html">About</a>
 			<a class="hoverable" href="devlog.html">Dev Log</a>
 			<a class="hoverable" href="contact.html">Contact</a>
@@ -253,6 +67,8 @@
 	<main>
 		<div class="center">
 			
+			<p style=" padding: 24px 0px">Cloaked Cat is an indie game development studio currently working on its first project
+			
 			<h2 class="heading">Games Under Development</h2>
 			
 			<div class="section">
@@ -262,7 +78,7 @@
 				
 				
 				<div class="main-right">
-					<p>Project: Grab n' Slash is the project title of the 2D platformer being developed. The game is centered around the idea of choice through mechanics. What that means is rather than binary text options, the game allows players to make narrative choices with their actions. The story will be determined by what the player chooses to do or not to do.</p>
+					<p>Project: Grab n' Slash, an action, 2D platformer based around choices through actions. Your actions will determine the course of your story.</p>
 					
 					<p>The game has no set schedule for launch. Updates and more information can be found on the Development Log page.</p>
 				</div>
@@ -277,7 +93,7 @@
 							<img class="mascot" src="images\aboutCat.jpg" alt="Cloaked Cat mascot Cloe">
 						
 							<div id="caption">
-								<p>Say hello to Cloe our mascot.</p>
+								<p>Say hello to Cloe our mascot!</p>
 							</div>
 						</div>
 						

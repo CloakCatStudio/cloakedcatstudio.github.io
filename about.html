@@ -1,9 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>About</title>
-</head>
-<body>
+	<title>About</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<style>
+		.desc {
+			padding: 8% 0px;
+		}
+		
+		.caption {
+			float: left;
+			display: inline;
+			width: 46%;
+			padding: 0px 4% 0px 0px;
+		}
+		
+		.image {
+			width: 50%;
+			float: left;
+			display: inline;
+		}
+		
+		
+	</style>
+</head>
+<body style="height=: 100vh;">
+	<header>
+		
+		<div class="center">
+			<img id="logo" src="images\cloakedCat.svg" alt="Cloaked Cat Studio">
+		</div>
+		
+	</header>
+	
+	
+	<div id="nav">
+		<div class="center nav-center">
+		
+			<a class="hoverable" href="index.html">Home</a>
+			<a id="active" href="about.html">About</a>
+			<a class="hoverable" href="devlog.html">Dev Log</a>
+			<a class="hoverable" href="contact.html">Contact</a>
+		
+		</div>
+	</div>
+	
+	<main>
+		<div class="center">
+			<p class="desc">Founded in 2019 by Zachary Fagan. Cloaked Cat is a independant game development studio run by hobbyists who make games in their free time.</p>
+			
+			<div>
+				<p class="caption">Cloe is the feline mascot of Cloaked Cat. She enjoys drawing and playing video games in her free time. While shy around new people, she really enjoys spending time with friends.</p>
+			
+				<img class="image" src="images\homeCat_small.jpg" alt="Cloe the cat our mascot">
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+	<div class="center" >
+		<div>
+			<table class="ft-navbar">
+				<tr>
+					<td>
+						<a class="ft-nav" href="#">Home</a>
+						<a class="ft-nav" href="about.html">About</a>
+						<a class="ft-nav" href="devlog.html">Dev Log</a>
+						<a class="ft-nav" href="contact.html">Contact</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<script type="text/javascript">
+			var d = new Date()
+			document.write('<p class="ft-text">Copyright &copy ' + d.getFullYear() + ' Cloaked Cat Studio. All Rights Reserved</p>')
+		</script>
+		
+	</div>
+		
+	</footer>
 </body>
 </html>
