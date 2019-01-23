@@ -4,6 +4,10 @@
 	padding: 0px;
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
+
+body {
+	background-color: #252637;
+}
 		
 .center {
 	width: 50%;
