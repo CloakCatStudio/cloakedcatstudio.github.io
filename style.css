@@ -40,8 +40,8 @@ body {
 		
 @media only screen and (max-width: 768px) {
 	.center {
-		width: 96%;
-		margin: 0px 2%;
+		width: 92%;
+		margin: 0px 4%;
 		overflow: hidden;
 	}
 
