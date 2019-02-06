@@ -171,3 +171,14 @@ footer {
 	width: 100%;
 	border-collapse: collapse;
 }
+
+.ft-icon {
+	font-size: 25px;
+	color: #ffffff;
+	padding: 4px 12px;
+}
+
+.ft-icon:hover {
+	color: #f24949;
+}
+
